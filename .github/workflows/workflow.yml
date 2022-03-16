@@ -52,7 +52,7 @@ jobs:
           package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp'
 
     # self-hosted runner   
-    runs-on: self-hosted
+    #    runs-on: self-hosted
 
 
 # For more samples to get started with GitHub Action workflows to deploy to Azure, refer to https://github.com/Azure/actions-workflow-samples
